@@ -1,0 +1,38 @@
+ SELECT `col_mont` FROM `Ulleres` 
+ SELECT `col_mont`, `preu` FROM `Ulleres`
+ SELECT * FROM `Ulleres` 
+4.
+5.
+ SELECT UPPER(`col_mont`), `preu` FROM `Ulleres` 
+ SELECT LOWER(`col_mont`), `preu` FROM `Ulleres` 
+ SELECT `marca`, upper(`marca`) FROM `Marques` 
+ SELECT round(0,0)`preu` FROM `Ulleres`
+10.
+ SELECT `id_proveidor`FROM `Marques`
+12.
+ SELECT `marca` FROM `Marques` ORDER BY`marca` DESC
+ SELECT `marca` FROM `Marques` ORDER BY`marca` ASC
+ SELECT `col_mont`, `preu` FROM Ulleres ORDER BY `col_mont` ASC, `preu` DES 
+ SELECT * from Ulleres limit 5
+17.
+ select `col_mont`, min(`preu`) from Ulleres
+ select `col_mont`, max(`preu`) from Ulleres
+ SELECT `id_proveidor` FROM `Marques` WHERE `id_proveidor` IN(3)
+ SELECT `preu` FROM `Ulleres` WHERE `preu` <= "120"
+ SELECT `preu` FROM `Ulleres` WHERE `preu` >= "400"
+ SELECT `preu` FROM `Ulleres` WHERE `preu` <> "400"
+ SELECT `preu` FROM `Ulleres` WHERE `preu` > "80" AND `preu`< "300"
+ SELECT `preu` FROM `Ulleres` WHERE `preu` BETWEEN "60" AND "200"
+ SELECT `preu` FROM `Ulleres` WHERE `preu` > "200" and `col_mont` = "vermell"
+ SELECT * FROM `Marques` WHERE `id_marca` = "1" AND `id_marca` = "2" AND `id_marca` ="3"
+ SELECT * FROM `Marques` WHERE `id_marca` IN(1, 2, 3)
+29.
+ SELECT `marca` FROM `Marques` WHERE `marca` LIKE 'S%'
+ SELECT `marca` FROM `Marques` WHERE `marca` LIKE '%E'
+ SELECT `marca` FROM `Marques` WHERE `marca` LIKE '%w%'
+ 33.
+ SELECT * FROM `Marques` WHERE `Marques` = "Oakley"
+ SELECT * FROM `Ulleres` WHERE `col_mont` = "blau" AND `preu` <= "215"
+36. MEXPLOTA EL CAAAAAP!!!
+
+
